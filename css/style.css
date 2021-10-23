@@ -1,0 +1,322 @@
+/* Common CSS starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all .7s ease-in-out;
+}
+
+small {
+    font-size: 14px;
+    color: #b4ad9e;
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+article {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #626262;
+}
+
+.wrapper2 {
+    width: 79%;
+    margin: 0 auto;
+
+}
+
+.gap {
+    padding: 50px 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+/* common css ends */
+
+/* header starts */
+
+header,
+.banner-section,
+.getaway-section,
+.overview-section,
+.loadmore-section,
+.newsletter,
+footer {
+    width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    margin: 28px 0;
+}
+
+.logo img {}
+
+nav {
+    width: 59%;
+    float: right;
+    overflow: hidden;
+    margin: 28px 0 0 0;
+}
+
+nav ul {
+    float: right;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    margin: 0 0px 0px 70px;
+    padding: 5px;
+    color: #626262;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* header ends */
+
+/* Banner section starts */
+.banner-section {}
+
+.banner-section .wrapper {}
+
+.banner-section .wrapper .banner-img {
+    width: 100%;
+}
+
+.banner-section .wrapper .banner-img img {
+    width: 100%;
+}
+
+/* Banner section ends */
+
+/* Getaway section starts */
+.getaway-section {
+
+    overflow: hidden;
+}
+
+.getaway-content {}
+
+.getaway-content article {
+    margin: 0 0 40px;
+}
+
+.getaway-content small a {
+    color: #b4ad9e;
+}
+
+.getaway-content small a:hover {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* getaway system ends */
+
+/* overview section starts */
+.overview-section {
+
+    overflow: hidden;
+}
+
+.overview .lifestyle,
+.photography,
+.lifestyle2 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single {
+    width: 47%;
+}
+
+.single .lifestyle-img {
+    margin-bottom: 21px;
+}
+
+.single .lifestyle-img img {
+    width: 100%;
+}
+
+.single .lifestyle-content article {}
+
+/* overview section ends */
+/* Newsletter section  starts */
+.newsletter {
+    background: #F0F0F0;
+    text-align: center;
+    padding: 50px 0 50px;
+}
+
+.newsletter-content-form {}
+
+.newsletter-content {
+    width: 41%;
+    margin: 0 auto;
+}
+
+.newsletter-content h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px 0 65px;
+}
+
+.email-form {}
+
+form {
+    width: 41%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: transparent;
+    background: #f0f0f0;
+}
+
+input:focus {
+    width: 400px;
+    border: none;
+    background: #f0f0f0;
+    outline: none;
+}
+
+.email-form form a {
+    font-size: 18px;
+}
+
+/* Newsletter section ends */
+/* Load more Starts*/
+.loadmore-section {
+    overflow: hidden;
+    padding: 50px 0 150px;
+}
+
+.loadmore {}
+
+.loadmore-btn {
+    text-align: center;
+}
+
+.loadmore-btn a {
+    color: #626262;
+    display: inline-block;
+    border: 1px solid #626262;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.loadmore-btn a:hover {
+    color: #000000;
+    font-size: 22px;
+}
+
+/* load more ends */
+
+/* footer starts */
+footer {
+    overflow: hidden;
+    background: #F0F0F0;
+}
+
+.footer-content {
+    overflow: hidden;
+}
+
+.items {
+    width: 35%;
+    float: left;
+}
+
+.items ul {}
+
+.items ul li {
+    float: left;
+}
+
+.items ul li a {
+    margin: 0px 24px 0 0;
+    color: #000000;
+    font-weight: 500;
+}
+
+.items ul li a:hover {
+    font-size: 17px;
+}
+
+.social-links {
+    margin: 0 0px 0px 53px;
+    width: 60%;
+    float: left;
+}
+
+.link-content {
+    float: right;
+    display: flex;
+}
+
+strong {
+    color: #000000;
+}
+
+.social-links .link-content ul {
+    display: flex;
+}
+
+.social-links .link-content ul li {}
+
+.social-links .link-content ul li a {
+    color: black;
+    margin: 0 0 0 15px;
+    padding: 5px;
+
+}
+
+.social-links .link-content ul li a:hover {
+    font-size: 18px;
+}
+
+/* footer ends */
