@@ -225,6 +225,7 @@ input:focus {
 }
 
 .email-form form a {
+    color:inherit;
     font-size: 18px;
 }
 
