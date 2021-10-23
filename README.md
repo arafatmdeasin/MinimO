@@ -1,2 +1,2 @@
 # Minimo
-https://arafatmdeasin.github.io/Minimo/
+https://arafatmdeasin.github.io/MinimO/
